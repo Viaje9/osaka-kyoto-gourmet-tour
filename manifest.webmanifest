@@ -1,0 +1,30 @@
+{
+  "name": "日本關西七日行程表",
+  "short_name": "關西行程",
+  "description": "大阪與京都七日美食旅遊攻略的行動化行程表。",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#A31D1D",
+  "theme_color": "#A31D1D",
+  "lang": "zh-Hant",
+  "icons": [
+    {
+      "src": "icons/app-icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/app-icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/app-icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ]
+}

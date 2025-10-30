@@ -3,7 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#A31D1D" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="關西行程" />
     <title>日本關西七日行程表 (大阪 & 京都)</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="icons/app-icon-180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/app-icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="icons/app-icon-512.png" />
     <!-- 載入 Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- 載入 Icon -->
@@ -37,7 +45,7 @@
       }
     </style>
   </head>
-  <body class="p-4 sm:p-8">
+  <body class="p-0 sm:p-8">
     <div
       class="max-w-4xl mx-auto bg-white rounded-xl shadow-2xl overflow-hidden"
     >
@@ -459,6 +467,7 @@
             openTab(button.getAttribute("data-tab"));
           });
         });
+
       };
     </script>
   </body>

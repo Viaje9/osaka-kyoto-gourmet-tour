@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#a31d1d"/>
+  <g fill="#ffffff" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="256" y="232" font-size="156">旅</text>
+    <text x="256" y="368" font-size="120">遊</text>
+  </g>
+</svg>
