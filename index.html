@@ -47,7 +47,7 @@
   </head>
   <body class="p-0 sm:p-8">
     <div
-      class="max-w-4xl mx-auto bg-white rounded-xl shadow-2xl overflow-hidden"
+      class="max-w-4xl mx-auto bg-white shadow-2xl overflow-hidden"
     >
       <!-- Header -->
       <header class="bg-[#A31D1D] p-6 text-white text-center">
@@ -68,43 +68,43 @@
       >
         <!-- 已優化按鈕 padding (py-3 px-4) 讓手機觸控更舒適 -->
         <button
-          class="tab-button py-3 px-4 mx-1 rounded-lg text-sm font-semibold transition duration-300 hover:bg-gray-200"
+          class="tab-button py-3 px-4 mx-1 rounded-lg text-sm font-semibold transition duration-300"
           data-tab="day1"
         >
           10/31 (五) 大阪抵達
         </button>
         <button
-          class="tab-button py-3 px-4 mx-1 rounded-lg text-sm font-semibold transition duration-300 hover:bg-gray-200"
+          class="tab-button py-3 px-4 mx-1 rounded-lg text-sm font-semibold transition duration-300"
           data-tab="day2"
         >
           11/1 (六) 大阪市區
         </button>
         <button
-          class="tab-button py-3 px-4 mx-1 rounded-lg text-sm font-semibold transition duration-300 hover:bg-gray-200"
+          class="tab-button py-3 px-4 mx-1 rounded-lg text-sm font-semibold transition duration-300"
           data-tab="day3"
         >
           11/2 (日) 環球影城
         </button>
         <button
-          class="tab-button py-3 px-4 mx-1 rounded-lg text-sm font-semibold transition duration-300 hover:bg-gray-200"
+          class="tab-button py-3 px-4 mx-1 rounded-lg text-sm font-semibold transition duration-300"
           data-tab="day4"
         >
           11/3 (一) 移動日 京都
         </button>
         <button
-          class="tab-button py-3 px-4 mx-1 rounded-lg text-sm font-semibold transition duration-300 hover:bg-gray-200"
+          class="tab-button py-3 px-4 mx-1 rounded-lg text-sm font-semibold transition duration-300"
           data-tab="day5"
         >
           11/4 (二) 京都經典
         </button>
         <button
-          class="tab-button py-3 px-4 mx-1 rounded-lg text-sm font-semibold transition duration-300 hover:bg-gray-200"
+          class="tab-button py-3 px-4 mx-1 rounded-lg text-sm font-semibold transition duration-300"
           data-tab="day6"
         >
           11/5 (三) 天橋立 伊根
         </button>
         <button
-          class="tab-button py-3 px-4 mx-1 rounded-lg text-sm font-semibold transition duration-300 hover:bg-gray-200"
+          class="tab-button py-3 px-4 mx-1 rounded-lg text-sm font-semibold transition duration-300"
           data-tab="day7"
         >
           11/6 (四) 返程
@@ -428,6 +428,8 @@
     </div>
 
     <script>
+      const TAB_STORAGE_KEY = "selectedTab";
+
       // JavaScript 函數：控制標籤頁切換
       function openTab(tabName) {
         // 隱藏所有內容
@@ -451,17 +453,35 @@
         if (selectedButton) {
           selectedButton.classList.add("active");
         }
+
+        try {
+          localStorage.setItem(TAB_STORAGE_KEY, tabName);
+        } catch (error) {
+          // localStorage might be unavailable (例如隱私模式)
+        }
       }
 
       // 初始化：頁面載入時顯示第一個標籤頁
       window.onload = function () {
-        const firstTab = document.querySelector(".tab-button");
-        if (firstTab) {
-          openTab(firstTab.getAttribute("data-tab"));
+        const buttons = document.querySelectorAll(".tab-button");
+        const firstTab = buttons[0];
+
+        let initialTab = null;
+        try {
+          initialTab = localStorage.getItem(TAB_STORAGE_KEY);
+        } catch (error) {
+          initialTab = null;
+        }
+
+        if (!initialTab || !document.getElementById(initialTab)) {
+          initialTab = firstTab ? firstTab.getAttribute("data-tab") : null;
+        }
+
+        if (initialTab) {
+          openTab(initialTab);
         }
 
         // 為所有按鈕添加點擊事件監聽器
-        const buttons = document.querySelectorAll(".tab-button");
         buttons.forEach((button) => {
           button.addEventListener("click", () => {
             openTab(button.getAttribute("data-tab"));
