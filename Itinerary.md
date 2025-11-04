@@ -81,17 +81,17 @@
 
 
 🪧11/5 kyoto 星期三
-⏱️08:00-18:45
-08:00 出發前往伊根
-09:30 抵達伊根舟屋群觀景台、漫步舟屋街道
-10:00-11:00 走訪伊根浦公園、近距離觀賞舟屋建築
-11:00-12:00 造訪日本伊根舟屋、船谷邸展望台、Ine Cafe 船屋碼頭
-12:00-12:30 搭乘伊根灣觀景船欣賞海景與海鷗
-12:30-14:30 自由活動、午餐或港邊散步
-14:30 前往天橋立地區
-15:00-17:00 抵達天橋立，搭乘纜車前往 Amanohashidate Viewland，參觀智恩寺與沙灘散步
-17:00-18:30 準備返回集合地點
-18:30 回程
+⏱️09:00-19:30
+09:00 於[京都站八條東口](https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E9%83%BD%E9%A7%85+%E5%85%AB%E6%9D%A1%E6%9D%B1%E5%8F%A3)集合（Kyoto Station Hachijoguchi Ekimae Square Sankun Garden）
+🌀請於出發前15分鐘抵達，導遊資訊會於出發前一天18:00左右寄至電子郵件
+09:00-10:30 乘車前往[伊根地區](https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E6%A0%B9%E7%94%BA)
+10:30-12:00 抵達[伊根舟屋群觀景台](https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E6%A0%B9%E8%88%9F%E5%B1%8B%E7%BE%A4+%E8%A6%B3%E6%99%AF%E5%8F%B0)，欣賞伊根灣景色、舟屋街道漫步、於[伊根浦公園](https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E6%A0%B9%E6%B5%A6%E5%85%AC%E5%9C%92)自由活動
+12:00-12:30 搭乘[伊根灣觀景船](https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E6%A0%B9%E6%B9%BE%E8%A6%B3%E6%99%AF%E8%88%B9)，欣賞海景與海鷗互動
+12:30-14:30 午餐與自由活動時間
+14:30-15:00 前往[天橋立](https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%A9%8B%E7%AB%8B)
+15:00-17:00 天橋立景區：搭纜車至 [Amanohashidate Viewland](https://www.google.com/maps/search/?api=1&query=Amanohashidate+Viewland)，參觀[智恩寺](https://www.google.com/maps/search/?api=1&query=%E6%99%BA%E6%81%A9%E5%AF%BA)、沙灘散步、自由活動
+17:00-18:30 集合、準備返程
+18:30-19:30 回程，抵達[京都站](https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E9%83%BD%E9%A7%85)
 
 
 🪧11/6 
